@@ -1,5 +1,5 @@
 # TrabajoPracticoVD
-Resolución del trabajo practico de VD
+Este repositorio contiene la resolución del trabajo practico de VD
 
 
 Respuestas Ejercicio 2:
