@@ -93,19 +93,20 @@ Cuando accedemos una página el navegador utiliza el verbo GET para recibir el .
 
 Las estructuras de datos JSON y XML son formatos basados en texto estandar y es la forma en la que se intercambian datos en aplicaciones web. 
 
-
 Un formato JSON seria:
-{
-"nombre":"Franco",
-"edad" : 22
-}
+        
+        {
+        "nombre":"Franco",
+        "edad" : 22
+        }
 
 
 Un formato XML seria:
-\<persona>
-  \<nombre>Franco\</nombre>
-  \<edad>22\</edad?
-\</persona>
+
+        <persona>
+        <nombre>Franco</nombre>
+        <edad>22</edad>
+        </persona>
 
 
 9.	Explicar brevemente el estándar SOAP:
