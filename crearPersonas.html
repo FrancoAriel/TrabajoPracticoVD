@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+<style>
+    input[type=text] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+label{
+    font-family: Verdana;
+}
+
+h1{
+    font-family: Verdana;
+}
+input[type=submit] {
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+</style>
+<body>
+    <h1>Ingreso de datos de persona</h1>
+    <form action="http://localhost:3000/" method="post">
+        <label for="nombre">Nombre :<br></label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="apellido">Apellido :<br></label>
+        <input type="text" id="apellido" name="apellido"><br><br>
+        <label for="dni">Dni :<br></label>
+        <input type="text" id="dni" name="dni"><br><br>
+        <input type="submit" value="Enviar">
+      </form>
+</body>
+</html>
