@@ -1,8 +1,49 @@
 # TrabajoPracticoVD
-Este repositorio contiene la resolución del trabajo practico de VD
+Este repositorio contiene la resolución del trabajo practico de VD y la guia de ejecución.
+
+## Guia de ejecución
+
+### Ejercicio 4 
+
+Para ejecutar el ejercicio 4 es necesario seguir los siguientes pasos:
+
+1. Abrir la terminal e ir a la ruta donde se encuentra el archivo mostrarPersonas.js
+2. Instalar los modulos necesarios mediante el siguiente comando en la terminal:
+        
+       npm install request-promise
+3. Ejecutar el programa mediante el comando en terminal:
+
+       node mostrarPersonas.js
+
+### Ejercicio 5
+
+Para ejecutar el ejercicio 5 es necesario seguir los siguientes pasos:
+
+1. Abrir la terminal e ir a al ruta donde se encuentra el archivo servidorPost.js
+2. Instalar los modulos necesarios mediante el siguiente comando en la terminal:
+
+       npm install express
+3. Ejecutar el programa mediante el comando en terminal:
+       
+       node servidorPost.js
+4. Realizar en postman el request y realizar un get a la url de la base de datos para ver que fue realizado correctamente.
+
+### Ejercicio 6
+ 
+Para ejecutar el ejercicio 6 es necesario seguir los siguientes pasos:
+
+1. Abrir la terminal e ir a al ruta donde se encuentra el archivo servidorPost.js
+2. Instalar los modulos necesarios mediante el siguiente comando en la terminal:
+
+       npm install express
+3. Ejecutar el programa mediante el comando en terminal:
+       
+       node servidorPost.js
+4. Abrir el archivo crearPersonas.html, cargar los datos en la pagina y tocar enviar.
+5. Realizar un GET a la url de la base de datos para ver que el POST fue realizado correctamente.
 
 
-Respuestas Ejercicio 2:
+# Respuestas Ejercicio 2:
 
 
 1.	¿Qué es un servidor HTTP?:
